@@ -16,7 +16,7 @@ for k in range(n-1):
 c = np.c_[a,b]
 print(c)
 
-#checks if matrix is consisetant, last row is all zeros except last element 
+#checks if matrix is consistent, IE: last row is all zeros except last element 
 rows = c.shape[0]
 
 cols = c.shape[1]
@@ -30,12 +30,6 @@ for i in range(0, rows):
         if c[i,j] == 0:
             zero = True
         else: rowZero = False
-
-            
-            
-        
-        
-      
         zero = False
         
         
